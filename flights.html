@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <script>
+    function handleClick() {
+      window.location.href = "./Booking.html";
+    }
+  </script>
+
+  <body class="flight-page-bg">
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="Images/travelworldlogo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Flight & Hotels
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#flights-search">Flights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#hotels-search">Hotels</a>
+                </li>
+                <li><a class="dropdown-item" href="#page-footer">More?</a></li>
+              </ul>
+            </li>
+            <a class="nav-link active" aria-current="page" href="#">Sign In</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- flight-content  -->
+    <section class="flight-content-section">
+      <div class="card flight-details">
+        <img
+          src="https://aviationsourcenews.com/wp-content/uploads/2023/05/Hamburg-Finkenwerder_Airport_Tata_SIA_Airlines_Vistara_Airbus_A321-251NX_VT-TVJ_DSC00305.jpg"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Vistara</h3>
+          <p class="card-text">6E4056</p>
+          <p class="card-text">Arrival time: 3 AM</p>
+          <p class="card-text">Departure time: 3:45 AM</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://bsmedia.business-standard.com/_media/bs/img/article/2020-07/29/full/1596046429-1041.jpg?im=FeatureCrop,size=(200,200)"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Indigo</h3>
+          <p class="card-text">6E571</p>
+          <p class="card-text">Arrival time: 4 PM</p>
+          <p class="card-text">Departure time: 4:15 PM</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://cdn.zeebiz.com/sites/default/files/2023/09/04/259146-air-india-express.jpg"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">All India Express</h3>
+          <p class="card-text">6E4011</p>
+          <p class="card-text">Arrival time: 9 AM</p>
+          <p class="card-text">Departure time: 10:45 AM</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://images.moneycontrol.com/static-mcnews/2018/09/Jet_jet-airways_aeroplane.jpg?impolicy=website&width=1600&height=900"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Jet Airlines</h3>
+          <p class="card-text">6E456</p>
+          <p class="card-text">Arrival time: 8 PM</p>
+          <p class="card-text">Departure time: 8:35 AM</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://www.livemint.com/lm-img/img/2023/09/15/1600x900/SPICEJET-RESULTS--0_1692861718098_1694752429496.JPG"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Spice Jet</h3>
+          <p class="card-text">6E5600</p>
+          <p class="card-text">Arrival time: 11 AM</p>
+          <p class="card-text">Departure time: 11:20 AM</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- bootstrap script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

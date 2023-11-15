@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <script>
+    function handleClick() {
+      window.location.href = "./Booking.html";
+    }
+  </script>
+
+  <body class="flight-page-bg">
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="Images/travelworldlogo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Flight & Hotels
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#flights-search">Flights</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#hotels-search">Hotels</a>
+                </li>
+                <li><a class="dropdown-item" href="#page-footer">More?</a></li>
+              </ul>
+            </li>
+            <a class="nav-link active" aria-current="page" href="#">Sign In</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hotel-content  -->
+    <section class="flight-content-section">
+      <div class="card flight-details">
+        <img
+          src="https://lh3.googleusercontent.com/gps-proxy/AFm_dcRUgFd4jnvD4ryElqp51eLOo9pnLTReVG-WjWUOaOXYjloZjK3daK_SCvdt-OBPAhVX-UB0aem5y3clnLQXiCjCo22w_X6RZ33Z7PJi2yu0vSkAhoqrxYaY4Z8N112EgGmdaFmkRFwiT4gwQNwl9MnbDcyYRZhFtTJtSRPumLjJETMIlgh7cDgR_w=w574-h384-n-k-no-v1-rj"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Hotel Mumbai House</h3>
+          <p class="card-text">Andheri east</p>
+          <p class="card-text">Room Type:Delux Ac room</p>
+          <p class="card-text">Price: 5500 Rs</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://lh3.googleusercontent.com/p/AF1QipPTMo_nibEY0L07f8HvA9JRGP36ptHVIgyQddsr=w574-h384-n-k-no-v1-rj"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Hotel BKC Crown</h3>
+          <p class="card-text">Bandra Kurla Complex</p>
+          <p class="card-text">Room Type:Non-Delux room</p>
+          <p class="card-text">Price: 2500 Rs</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://lh3.googleusercontent.com/proxy/G1s43l6ONCaG38-VmLHVc9hLvLjIIhRfBInVniflkyfZq1GH_AlRcWtp-z9KXispjLEWamFJ1efNaO9ADosEuJ_yM-WqLQKNQ-psZUUe_hwNSOtfPcpUoRkz8BW20yUUj4okTuih0Ub5EoqrlYxby_h1uuzwRg=w574-h384-n-k-no-v1-rj"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Comfortable Living</h3>
+          <p class="card-text">Matunga east</p>
+          <p class="card-text">Room Type:Standard</p>
+          <p class="card-text">Price: 1500 Rs</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://lh3.googleusercontent.com/gps-proxy/AFm_dcRZKsJPH68NKDE8pxuezm7p5jVMSRd6LN2BVKrry636j1zCjqITBxMvfw1qTlvET1aDKB9Y2F68mlm9jaKuo92zPP8EC7VssPCXWYMVaHONtvUWVOCFCqlUOmH3EjktWHIy36OKkXDgUAjyIpop8Wv7CPsBqHkT29a8PUuyLrf7uEY6g80E_sXJMA=w574-h384-n-k-no-v1-rj"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Hotel Ginger</h3>
+          <p class="card-text">Goregoan</p>
+          <p class="card-text">Room Type:Delux Ac room</p>
+          <p class="card-text">Price: 5000 Rs</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+      <div class="card flight-details">
+        <img
+          src="https://lh3.googleusercontent.com/p/AF1QipNfKaRszeCmrSMnJayTmCfbdG2VNEGXhuh12U_4=w574-h384-n-k-no-v1-rj"
+          alt="flight image"
+          class="flight-image"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Hotel Parle International</h3>
+          <p class="card-text">Vile Parle East</p>
+          <p class="card-text">Room Type: Non-Delux Room</p>
+          <p class="card-text">Price: 3500 Rs</p>
+          <button type="button" class="btn btn-primary" onclick="handleClick()">
+            book now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- bootstrap script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
